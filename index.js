@@ -18,25 +18,3 @@ server.listen(process.env.PORT, () => {
         ativo: "0"
     });
 });
-
-// var assunto = db.model({
-//     table: "fc_assunto"
-// });
-
-// assunto.query(fc_assunto.queries.countInativos, {
-//     id: "1"
-// }).then(res => {
-//     console.log(`Querying table: [${fc_assunto.tablename}]\n`);
-//     console.log(`Query: [${fc_assunto.queries.countInativos}]\n`);
-//     console.log(`Result: ${JSON.stringify(res[0])}`);
-// }).catch(err => {
-//     console.log(err);
-// });
-
-// assunto.query(fc_assunto.queries.statusAtivos).then(res => {
-//     console.log(`Querying table: [${fc_assunto.tablename}]\n`);
-//     console.log(`Query: [${fc_assunto.queries.statusAtivos}]\n`);
-//     console.log(`Result: ${JSON.stringify(res)}`);
-// }).catch(err => {
-//     console.log(err);
-// });
